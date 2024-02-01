@@ -10,6 +10,7 @@ def main():
     return render_template("about.html")
 
 
+
 @app.route('/data', methods=['GET'])
 def returnData():
     
